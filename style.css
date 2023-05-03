@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(175, 115, 4), rgb(119, 111, 111), rgb(255, 255, 255));
+}
+h1{
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: 3em;
+    text-shadow: 1px 2px gray;
+}
+table{
+    text-align: center;
+}
+img{
+    width: 200px;
+    border-radius: 9px;
+}
+img:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+    
+}
+fieldset{
+    text-align: center;
+}
+details{
+    cursor: pointer;
+}
+h6{
+    font-family: cursive;
+    font-weight: bolder;
+    text-align: center;
+}
+input, textarea{
+    border-radius: 8px;
+}
+ul{
+    display:flex;
+    justify-content:space-evenly;
+}
+a, li{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    font-size: large;
+    font-weight: 500;
+    text-shadow: 1px 1px gray;
+}
+summary{
+    font-weight: 700;
+    text-shadow: 1px 1px gray;
+}
