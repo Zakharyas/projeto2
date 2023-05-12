@@ -1,6 +1,14 @@
 body{
     background-image: linear-gradient(to bottom, rgb(119, 111, 111), rgb(255, 255, 255));
 }
+header{
+    background-color: gray;
+    margin: 5px 50px 0px 50px;
+    padding: 10px;
+    padding-top: 22px;
+    border-radius: 8px;
+    box-shadow: 1px 1px black;
+}
 h1{
     font-family: cursive;
     font-weight: bolder;
